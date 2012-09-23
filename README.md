@@ -11,20 +11,20 @@ When first launched, Talos will ask you to locate your 1Password keychain ( the 
 
 ### Locking/Unlocking The Keychain
 
-    * Enter the master password to unlock the keychain.
-    * It will automatically lock itself after a while.
-    * To manually lock the keychain, use the `CMD+L` shortcut.
+* Enter the master password to unlock the keychain.
+* It will automatically lock itself after a while.
+* To manually lock the keychain, use the `CMD+L` shortcut.
 
 ### Copying Passwords
 
-    * Search or use the arrow keys to select the item you want.
-    * Hit `ENTER` to copy the password.
+* Search or use the arrow keys to select the item you want.
+* Hit `ENTER` to copy the password.
 
 ### Invoking/Dismissing
 
-    * Once launched, Talos will stay resident in memory. You can bring it up by using the `CMD+SHIFT+1` shortcut.
-    * Press `esc` to dismiss it.
-    * To quit permanently, use `CMD+Q`.
+* Once launched, Talos will stay resident in memory. You can bring it up by using the `CMD+SHIFT+1` shortcut.
+* Press `esc` to dismiss it.
+* To quit permanently, use `CMD+Q`.
 
 Requirements
 -------------
