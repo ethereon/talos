@@ -106,6 +106,26 @@ static NSString* const kDefaultSecurityLevel = @"SL5";
     return nil;
 }
 
+-(NSString*) username
+{
+    if(!_username)
+    {
+        NSDictionary* fields = [self fields];
+        RNIF(fields, @"Could not acquire fields for item");
+        [self setUsername:fields[@"username"]];
+        if(!_password)
+        {
+              [self setUsername:[self subFieldsWithDesignation:@"username"][@"value"]];
+        }
+        if(!_username)
+        {
+              NSLog(@"Could not locate username for item.");
+        }
+    }
+    
+    return _username;
+}
+
 -(NSString*) password
 {
     if(!_password)
